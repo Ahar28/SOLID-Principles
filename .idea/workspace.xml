@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32e50540-cf4a-4b04-a377-1e7c8270fef0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/o/OCP_bad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/s/SRP_bad.java" afterDir="false" />
+    <list default="true" id="32e50540-cf4a-4b04-a377-1e7c8270fef0" name="Changes" comment="implemented Single Responsibility principle">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/s/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/s/CourseManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/s/CourseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/s/CourseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/s/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/s/SRP_bad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/s/SRP_good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/s/Course.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +51,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.statistic.project.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,11 +69,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688751657436</updated>
-      <workItem from="1688751657776" duration="1032000" />
+      <workItem from="1688751657776" duration="2074000" />
+      <workItem from="1688830618731" duration="23967000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implemented Single Responsibility principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented Single Responsibility principle" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

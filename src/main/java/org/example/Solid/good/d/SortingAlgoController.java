@@ -1,6 +1,6 @@
 package org.example.Solid.good.d;
 
-public class SortingAlgoController {
+    public class SortingAlgoController {
     private SortingAlgorithm sortingAlgorithm;
 
     public SortingAlgoController(SortingAlgorithm sortingAlgorithm) {

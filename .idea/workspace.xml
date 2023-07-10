@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="32e50540-cf4a-4b04-a377-1e7c8270fef0" name="Changes" comment="implemented S.O.L.I.D principles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/i/ISP_bad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/i/ISP_bad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/d/SortingAlgoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/d/SortingAlgoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/#Sem 2 Summer/ASDC/#Assignments/Assignment 2/Solution/ASDC_Assignment_2/src/main/java/org/example/Solid/good/d",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/#Sem 2 Summer/ASDC/#Assignments/Assignment 2/Solution/ASDC_Assignment_2/src/main/java/org/example/Solid/good/d&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.Solid.good.i" />
@@ -78,7 +78,8 @@
       <updated>1688751657436</updated>
       <workItem from="1688751657776" duration="2074000" />
       <workItem from="1688830618731" duration="24434000" />
-      <workItem from="1688912143001" duration="41924000" />
+      <workItem from="1688912143001" duration="42327000" />
+      <workItem from="1688958874872" duration="596000" />
     </task>
     <servers />
   </component>

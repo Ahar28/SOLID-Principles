@@ -10,20 +10,20 @@ public class CourseManager {
         System.out.println("The Courses available are:");
         for(int i=0;i<courseData.getCourseList().size();i++ ){
             System.out.println();
-            System.out.println("Course :- "+i );
-            System.out.println("Course Name :-"+courseData.getCourseList().get(i).getCourseName());
-            System.out.println("Course ID :-"+courseData.getCourseList().get(i).getCourse_ID());
+            System.out.println("Course_OCP_bad :- "+i );
+            System.out.println("Course_OCP_bad Name :-"+courseData.getCourseList().get(i).getCourseName());
+            System.out.println("Course_OCP_bad ID :-"+courseData.getCourseList().get(i).getCourse_ID());
             System.out.println("Credits :-"+courseData.getCourseList().get(i).getCredits());
         }
     }
 
     public static void addCourse(Course course){
         if (courseData.isPresent(course.getCourse_ID())){
-            System.out.println("Course aleady present");
+            System.out.println("Course_OCP_bad aleady present");
         }
         else{
             courseData.addCourse(course);
-            System.out.println("Course added successfully");
+            System.out.println("Course_OCP_bad added successfully");
         }
     }
     public static void updateCourse(int courseid,String newcoursename,int credits){
@@ -38,7 +38,7 @@ public class CourseManager {
             courseData.deleteCourse(courseData.findbyID(courseToDelete));
         }
         else {
-            System.out.println("Course with this course ID not present");
+            System.out.println("Course_OCP_bad with this course ID not present");
         }
     }
 }

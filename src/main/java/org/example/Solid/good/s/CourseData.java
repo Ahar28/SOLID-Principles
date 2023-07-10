@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CourseData {
+
+    public static List<Course> courseList;
     public static List<Course> getCourseList() {
         return courseList;
     }
-
-    public static List<Course> courseList;
 
     public CourseData() {
         courseList = new ArrayList<>();

@@ -27,9 +27,9 @@ public class CourseManagement {
             System.out.println();
             System.out.println("Welcome");
             System.out.println("1. View All Courses");
-            System.out.println("2. Add Course");
-            System.out.println("3. Update Course");
-            System.out.println("4. Delete Course");
+            System.out.println("2. Add Course_OCP_bad");
+            System.out.println("3. Update Course_OCP_bad");
+            System.out.println("4. Delete Course_OCP_bad");
             System.out.println("5. Exit");
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
@@ -71,11 +71,11 @@ public class CourseManagement {
 
             case 4:
                 scanner.nextLine();
-                System.out.print("Enter Course code to delete: ");
+                System.out.print("Enter Course_OCP_bad code to delete: ");
                 int courseToDelete = scanner.nextInt();
 
                 deleteCourse(courseToDelete);
-                System.out.println("Course deleted successfully.");
+                System.out.println("Course_OCP_bad deleted successfully.");
                 break;
 
             case 5:
@@ -95,9 +95,9 @@ public class CourseManagement {
         System.out.println("The Courses available are:");
         for(int i=0;i<CourseList.size();i++ ){
             System.out.println();
-            System.out.println("Course :- "+(i+1) );
-            System.out.println("Course Name :-"+CourseList.get(i).getCourseName());
-            System.out.println("Course ID :-"+CourseList.get(i).getCourse_ID());
+            System.out.println("Course_OCP_bad :- "+(i+1) );
+            System.out.println("Course_OCP_bad Name :-"+CourseList.get(i).getCourseName());
+            System.out.println("Course_OCP_bad ID :-"+CourseList.get(i).getCourse_ID());
             System.out.println("Credits :-"+CourseList.get(i).getCredits());
         }
     }
@@ -108,7 +108,7 @@ public class CourseManagement {
         }
         else {
             CourseList.add(course);
-            return "Course added to the list";
+            return "Course_OCP_bad added to the list";
         }
     }
 
@@ -124,7 +124,7 @@ public class CourseManagement {
             Course course = findCoursebyID(courseid);
             course.setCourseName(coursename);
             course.setCredits(credits);
-            System.out.println("Course updated successfully");
+            System.out.println("Course_OCP_bad updated successfully");
 
         }
 

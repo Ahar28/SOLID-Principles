@@ -4,54 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32e50540-cf4a-4b04-a377-1e7c8270fef0" name="Changes" comment="implemented Single Responsibility principle">
-      <change afterPath="$PROJECT_DIR$/.idea/statistic.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/d/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/d/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/d/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/d/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/d/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/i/StringMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/i/StringMethodsIMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/l/Datarepo_LSP_bad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/o/Course_OCP_bad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/o/Student_bad_OCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/d/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/d/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/d/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/d/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/d/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/d/SortingAlgoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/d/SortingAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/i/Reversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/i/ReversalImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/i/StringComparision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/i/StringComparisionImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/i/StringManipulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/i/StringManipulationImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/i/StringTraversalImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/l/Datarepo_LSP_good.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/o/CoursePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/o/CourseSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/o/Course_OCP_good.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/o/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/o/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/o/StudentPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/o/StudentSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/o/Student_OCP_good.java" afterDir="false" />
+    <list default="true" id="32e50540-cf4a-4b04-a377-1e7c8270fef0" name="Changes" comment="implemented S.O.L.I.D principles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/d/DIP_bad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/d/DIP_bad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/i/ISP_bad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/i/ISP_bad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/l/LSP_bad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/l/LSP_bad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/o/OCP_bad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/o/OCP_bad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/s/CourseManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/bad/s/CourseManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/d/DIP_good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/d/DIP_good.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/i/ISP_good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/i/ISP_good.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/l/LSP_good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/l/LSP_good.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/o/OCP_good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/o/OCP_good.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/s/CourseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/s/CourseData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/s/CourseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/s/CourseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/s/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Solid/good/s/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +52,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.project.statistic.project.settings",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -123,7 +78,7 @@
       <updated>1688751657436</updated>
       <workItem from="1688751657776" duration="2074000" />
       <workItem from="1688830618731" duration="24434000" />
-      <workItem from="1688912143001" duration="35882000" />
+      <workItem from="1688912143001" duration="41924000" />
     </task>
     <servers />
   </component>
@@ -132,7 +87,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="implemented Single Responsibility principle" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented Single Responsibility principle" />
+    <MESSAGE value="implemented S.O.L.I.D principles" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented S.O.L.I.D principles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

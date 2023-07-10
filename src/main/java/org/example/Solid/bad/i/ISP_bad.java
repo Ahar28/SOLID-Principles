@@ -3,7 +3,7 @@ package org.example.Solid.bad.i;
 import java.util.Map;
 import java.util.Scanner;
 
-public class ISP_bad {
+    public class ISP_bad {
 
     public static void main(String[] args) {
 
